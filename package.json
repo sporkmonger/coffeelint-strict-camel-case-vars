@@ -11,10 +11,7 @@
     "coffeelint",
     "coffeelintrule"
   ],
-  "author": {
-    "name": "Ben Sklaroff",
-    "email": "bsklaroff@gmail.com"
-  },
+  "author": "Ben Sklaroff <bsklaroff@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bsklaroff/coffeelint-camel-case-vars/issues"
@@ -24,5 +21,9 @@
   },
   "peerDependencies": {
     "coffeelint": "^1.5"
+  },
+  "homepage": "https://github.com/bsklaroff/coffeelint-camel-case-vars",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

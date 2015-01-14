@@ -1,6 +1,6 @@
 regexes =
-  camelCase : /^[_a-zA-Z][a-zA-Z\d]*$/
-  allCaps : /^[_A-Z][_A-Z\d]*$/
+  camelCase : /^_?_?[a-zA-Z][a-zA-Z\d]*$/
+  allCaps : /^_?_?[A-Z][_A-Z\d]*$/
 
 module.exports = class CamelCaseVars
   rule:
