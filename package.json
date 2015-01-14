@@ -1,0 +1,28 @@
+{
+  "name": "coffeelint-camel-case-vars",
+  "version": "0.0.1",
+  "description": "A CoffeeLint rule that ensures variables are camelCased",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bsklaroff/coffeelint-camel-case-vars.git"
+  },
+  "keywords": [
+    "coffeelint",
+    "coffeelintrule"
+  ],
+  "author": {
+    "name": "Ben Sklaroff",
+    "email": "bsklaroff@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsklaroff/coffeelint-camel-case-vars/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "peerDependencies": {
+    "coffeelint": "^1.5"
+  }
+}
