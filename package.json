@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-camel-case-vars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CoffeeLint rule that ensures variables are camelCased",
   "main": "index.js",
   "repository": {
