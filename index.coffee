@@ -40,5 +40,5 @@ module.exports = class CamelCaseVars
         varName = tokenApi.peek(offset)[1]
 
     # Now check for the error
-    if not regexes.camelCase.test(varName) and not regexes.allCaps.test(varName)
+    if not regexes.camelCase.test(varName) and not regexes.allCaps.test(varName) and varName != '_'
       return {context: "var name: #{varName}"}
