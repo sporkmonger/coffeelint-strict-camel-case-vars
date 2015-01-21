@@ -1,6 +1,6 @@
 regexes =
-  camelCase : /^_?_?[a-zA-Z][a-zA-Z\d]*$/
-  allCaps : /^_?_?[A-Z][_A-Z\d]*$/
+  camelCase : /^\$?\$?_?_?[a-zA-Z][a-zA-Z\d]*$/
+  allCaps : /^[A-Z][_A-Z\d]*$/
 
 module.exports = class CamelCaseVars
   rule:
@@ -40,5 +40,6 @@ module.exports = class CamelCaseVars
         varName = tokenApi.peek(offset)[1]
 
     # Now check for the error
-    if not regexes.camelCase.test(varName) and not regexes.allCaps.test(varName) and varName != '_'
+    if not regexes.camelCase.test(varName) and not regexes.allCaps.test(varName) and
+       varName != '_' and varName != '$'
       return {context: "var name: #{varName}"}
