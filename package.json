@@ -1,28 +1,38 @@
 {
-  "name": "coffeelint-camel-case-vars",
-  "version": "0.0.4",
-  "description": "A CoffeeLint rule that ensures variables are camelCased",
+  "name": "coffeelint-strict-camel-case-vars",
+  "version": "0.0.5",
+  "description": "A CoffeeLint rule that ensures variables are strictly camelCased",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bsklaroff/coffeelint-camel-case-vars.git"
+    "url": "git://github.com/sporkmonger/coffeelint-strict-camel-case-vars.git"
   },
   "keywords": [
     "coffeelint",
     "coffeelintrule"
   ],
   "author": "Ben Sklaroff <bsklaroff@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ben Sklaroff",
+      "email": "bsklaroff@gmail.com"
+    },
+    {
+      "name": "Bob Aman",
+      "email": "bob@moz.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bsklaroff/coffeelint-camel-case-vars/issues"
+    "url": "https://github.com/sporkmonger/coffeelint-strict-camel-case-vars/issues"
   },
   "dependencies": {
     "coffee-script": "^1.8.0"
   },
   "peerDependencies": {
-    "coffeelint": "^1.5"
+    "coffeelint": "^1.9.1"
   },
-  "homepage": "https://github.com/bsklaroff/coffeelint-camel-case-vars",
+  "homepage": "https://github.com/sporkmonger/coffeelint-strict-camel-case-vars",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

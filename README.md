@@ -1,4 +1,4 @@
-coffeelint-camel-case-vars
+coffeelint-strict-camel-case-vars
 ==============================
 
 [CoffeeLint](http://www.coffeelint.org) rule that checks to make sure all
@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```sh
-npm install coffeelint-camel-case-vars
+npm install coffeelint-strict-camel-case-vars
 ```
 
 Usage
@@ -18,7 +18,7 @@ Add the following configuration to `coffeelint.json`:
 
 ```json
 "camel_case_vars": {
-  "module": "coffeelint-camel-case-vars"
+  "module": "coffeelint-strict-camel-case-vars"
 }
 ```
 
